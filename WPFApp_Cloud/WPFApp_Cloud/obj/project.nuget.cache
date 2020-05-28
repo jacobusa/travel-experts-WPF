@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "IvTEc0a9thOgx2CzUpRi2Z9PqiQEs4rW6FEvXRJ046fLOl1qNiuskWpbuNlhKji5Mi2fwGi2f9jcJ/+NtFLEuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\853734\\Desktop\\TravelExpertsFinal\\WPFApp_Cloud\\WPFApp_Cloud\\WPFApp_Cloud.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\853734\\.nuget\\packages\\controlzex\\4.2.2\\controlzex.4.2.2.nupkg.sha512",
+    "C:\\Users\\853734\\.nuget\\packages\\mahapps.metro\\2.0.0-alpha0748\\mahapps.metro.2.0.0-alpha0748.nupkg.sha512",
+    "C:\\Users\\853734\\.nuget\\packages\\materialdesigncolors\\1.2.6-ci1479\\materialdesigncolors.1.2.6-ci1479.nupkg.sha512",
+    "C:\\Users\\853734\\.nuget\\packages\\materialdesignthemes\\3.2.0-ci1479\\materialdesignthemes.3.2.0-ci1479.nupkg.sha512",
+    "C:\\Users\\853734\\.nuget\\packages\\materialdesignthemes.mahapps\\0.1.2-ci1479\\materialdesignthemes.mahapps.0.1.2-ci1479.nupkg.sha512",
+    "C:\\Users\\853734\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\853734\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

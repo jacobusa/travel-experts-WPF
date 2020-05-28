@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="WPFApp_Cloud.UserControlPackageAdd"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFApp_Cloud"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Loaded="Window_Loaded">
+        <Border Margin="15" MinWidth="400" Background="White" VerticalAlignment="Center" Padding="30" CornerRadius="10" MaxWidth="800">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="LightGray" ShadowDepth="0"/>
+            </Border.Effect>
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel HorizontalAlignment="Left" Margin="50,0,0,0" VerticalAlignment="Top" Width="500" >
+                        <TextBlock x:Name="statusTextBlock" Height="27"   FontSize="20" FontWeight="Bold" Text="" />
+                    </StackPanel>
+                    <ScrollViewer Grid.Row="1">
+                        <StackPanel Width="400" HorizontalAlignment="Left" Margin="50 20">
+                            <Label Content="New Package" HorizontalAlignment="Center" FontSize="20" />
+                            <TextBox x:Name="nameTextbox" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Package Name" TextWrapping="Wrap" Width="300" Margin="0 10"/>
+                            <DatePicker Name="startDate"  materialDesign:HintAssist.Hint="Start Date" Width="300" Margin="0 10" mah:ValidationHelper.ShowValidationErrorOnMouseOver="True" />
+                            <DatePicker Name="endDate" Width="300" materialDesign:HintAssist.Hint="End Date" Margin="0 10" />
+                            <TextBox x:Name="desc" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Description" TextWrapping="Wrap" Width="300" Margin="0 10" />
+                            <TextBox materialDesign:HintAssist.Hint="Base Price"  Text="" TextWrapping="Wrap" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Name="costTextbox" Width="300" Margin="0 10"  TextChanged="costTextbox_TextChanged" />
+                            <TextBox x:Name="image" Style="{StaticResource MaterialDesignFloatingHintTextBox}" materialDesign:HintAssist.Hint="Image Description(Optional)" Text="" TextWrapping="Wrap" Width="300" Margin="0 10"/>
+                            <TextBox x:Name="commissionTextbox" Style="{StaticResource MaterialDesignFloatingHintTextBox}" TextChanged="commissionTextbox_TextChanged" materialDesign:HintAssist.Hint="Agency Commision" Text="" TextWrapping="Wrap"  Width="300" Margin="0 10"/>
+                            <Label Content="Select Products to Add" Width="300" HorizontalAlignment="Center" Margin="0 15 0 0"  />
+                            <ListView x:Name="myListView" SelectionMode="Multiple" Height="200" Width="300" >
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="{Binding ProdName}" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                            <StackPanel VerticalAlignment="Bottom" Width="300" Margin="0 20 0 0">
+                                <Button x:Name="submitButton" Click="addSubmit_ClickAsync" Content="Add Package" />
+                            </StackPanel>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </materialDesign:TransitioningContent>
+        </Border>
+    </Grid>
+</UserControl>

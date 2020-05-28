@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\africa.jpg" />
+    <None Remove="Images\Alex-green.jpg" />
+    <None Remove="Images\Alex_arch.jpg" />
+    <None Remove="Images\Alex_lavender.jpg" />
+    <None Remove="Images\Alex_sunflowers.jpg" />
+    <None Remove="Images\Alex_tree.jpg" />
+    <None Remove="Images\asia.jpg" />
+    <None Remove="Images\beachvan.jpg" />
+    <None Remove="Images\blue-4145659_1920.jpg" />
+    <None Remove="Images\boatmountains.jpg" />
+    <None Remove="Images\bridge.jpg" />
+    <None Remove="Images\building.jpg" />
+    <None Remove="Images\camels.jpg" />
+    <None Remove="Images\caribbean.jpg" />
+    <None Remove="Images\compass.png" />
+    <None Remove="Images\default.jpg" />
+    <None Remove="Images\europe.jpg" />
+    <None Remove="Images\goldengate.jpg" />
+    <None Remove="Images\hawaii.jpg" />
+    <None Remove="Images\mediterranean.jpg" />
+    <None Remove="Images\mountainbeach.jpg" />
+    <None Remove="Images\mountains.jpg" />
+    <None Remove="Images\polynesia.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="3.2.0-ci1479" />
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="0.1.2-ci1479" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\africa.jpg" />
+    <Resource Include="Images\Alex-green.jpg" />
+    <Resource Include="Images\Alex_arch.jpg" />
+    <Resource Include="Images\Alex_lavender.jpg" />
+    <Resource Include="Images\Alex_sunflowers.jpg" />
+    <Resource Include="Images\Alex_tree.jpg" />
+    <Resource Include="Images\asia.jpg" />
+    <Resource Include="Images\beachvan.jpg" />
+    <Resource Include="Images\blue-4145659_1920.jpg" />
+    <Resource Include="Images\boatmountains.jpg" />
+    <Resource Include="Images\bridge.jpg" />
+    <Resource Include="Images\building.jpg" />
+    <Resource Include="Images\camels.jpg" />
+    <Resource Include="Images\caribbean.jpg" />
+    <Resource Include="Images\compass.png" />
+    <Resource Include="Images\default.jpg" />
+    <Resource Include="Images\europe.jpg" />
+    <Resource Include="Images\goldengate.jpg" />
+    <Resource Include="Images\hawaii.jpg" />
+    <Resource Include="Images\mediterranean.jpg" />
+    <Resource Include="Images\mountainbeach.jpg" />
+    <Resource Include="Images\mountains.jpg" />
+    <Resource Include="Images\polynesia.jpg" />
+  </ItemGroup>
+
+</Project>

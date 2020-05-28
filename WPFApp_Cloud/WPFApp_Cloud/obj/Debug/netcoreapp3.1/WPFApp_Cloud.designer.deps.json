@@ -1,0 +1,132 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ControlzEx/4.2.2": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.19"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ControlzEx.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.2.2.4"
+          }
+        }
+      },
+      "MahApps.Metro/2.0.0-alpha0748": {
+        "dependencies": {
+          "ControlzEx": "4.2.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MahApps.Metro.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.748"
+          }
+        }
+      },
+      "MaterialDesignColors/1.2.6-ci1479": {
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignColors.dll": {
+            "assemblyVersion": "1.2.6.1479",
+            "fileVersion": "1.2.6.1479"
+          }
+        }
+      },
+      "MaterialDesignThemes/3.2.0-ci1479": {
+        "dependencies": {
+          "MaterialDesignColors": "1.2.6-ci1479"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "3.2.0.1479",
+            "fileVersion": "3.2.0.1479"
+          }
+        }
+      },
+      "MaterialDesignThemes.MahApps/0.1.2-ci1479": {
+        "dependencies": {
+          "MahApps.Metro": "2.0.0-alpha0748",
+          "MaterialDesignColors": "1.2.6-ci1479",
+          "MaterialDesignThemes": "3.2.0-ci1479"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MaterialDesignThemes.MahApps.dll": {
+            "assemblyVersion": "0.1.2.1479",
+            "fileVersion": "0.1.2.1479"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.19.35512"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControlzEx/4.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uNdNINsAYMhYM8fB1cZoMfAAxzjOzHLBIR/Bw9Qm+P4XEEsH3oiVUNg4fSNPvi9CD7Pw6JSl/aUgG18jiAMpRA==",
+      "path": "controlzex/4.2.2",
+      "hashPath": "controlzex.4.2.2.nupkg.sha512"
+    },
+    "MahApps.Metro/2.0.0-alpha0748": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZexxOSAx+SON01cBZ51JvwK3tHRClLdJtOrhijhgtCRsAVadegJTFonnqW0AQtH8HfNDZiIqPEg3YsozFSnXJQ==",
+      "path": "mahapps.metro/2.0.0-alpha0748",
+      "hashPath": "mahapps.metro.2.0.0-alpha0748.nupkg.sha512"
+    },
+    "MaterialDesignColors/1.2.6-ci1479": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BaUBCHzeZtXnvwABmx339OffAB3pIcl77gEyb6t4oiqXYof0HBn7RMCwnw/L/IiUQY4ra4g4kyqA7c/crI3VzQ==",
+      "path": "materialdesigncolors/1.2.6-ci1479",
+      "hashPath": "materialdesigncolors.1.2.6-ci1479.nupkg.sha512"
+    },
+    "MaterialDesignThemes/3.2.0-ci1479": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ulVnkBo0QF0o5D00ZJPYPQGUY6jlzoXtvA3w82dcAmEuEWgfpmjY6e72GFXJu39//LbD/rSPZte8PAKUwRFwxQ==",
+      "path": "materialdesignthemes/3.2.0-ci1479",
+      "hashPath": "materialdesignthemes.3.2.0-ci1479.nupkg.sha512"
+    },
+    "MaterialDesignThemes.MahApps/0.1.2-ci1479": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FGpXZzbQTudMDINHWQXJAwnE9ZIJUY+3FtnBDMkEuUaZlUkCf0TfvtaQeuNnYmWrzU7LVwLKSQDT+N0fED06aQ==",
+      "path": "materialdesignthemes.mahapps/0.1.2-ci1479",
+      "hashPath": "materialdesignthemes.mahapps.0.1.2-ci1479.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5sPWkbqImc2t1aQwIfJcKsUo7tOg1Tr8+6xVzZJB56Nzt4u9NlpcLofgdX/aRYpPKdWDA3U23Akw1KQzU5e82g==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.19",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}
